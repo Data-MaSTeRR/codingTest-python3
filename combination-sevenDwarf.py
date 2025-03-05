@@ -15,9 +15,9 @@ def solution(l):
             sevenDwarf = comb
             break
 
-    sevenDwarf = sorted(list(sevenDwarf)) # combinations는 tuple로 출력
+    # sevenDwarf = sorted(list(sevenDwarf)) # combinations는 tuple로 출력
 
-    for dwarf in sevenDwarf:
+    for dwarf in sorted(sevenDwarf):
         print(dwarf)
 
 solution(l)
